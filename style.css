@@ -1,6 +1,34 @@
-.body {
-        background-color:  grey;
-        width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
-} 
+body {
+    background: rgb(179,179,179);
+    background: linear-gradient(137deg, rgba(179,179,179,0.9717711480362538) 0%, rgba(208,209,205,1) 24%, rgba(240,235,235,0.5065143504531722) 49%, rgba(156,156,156,0.5065143504531722) 71%, rgba(4,0,0,1) 100%);
+    width: 600px;
+    margin: auto;
+      
+}
+img {
+    border-radius: 20px;
+    padding-left: 35px;
+}
+h1 {
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#FIO {
+   
+      width: 100%;
+      margin-left: 30%;
+      margin-right: 30%;
+}
+p {
+    width: 500px;
+    text-align: left;
+
+}
+#tasks {
+    text-align: left;
+    padding-left: -; 
+}
+p #cod {
+    color: blueviolet;
+}
