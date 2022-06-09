@@ -1,5 +1,7 @@
 # Резюме
-![фото](blob:https://web.telegram.org/5c655371-bf46-408a-8fbd-526fe71c86a7)
+![фото](https://raw.githubusercontent.com/khachapur/img-for-rss/main/IMG_20190906_113554.jpg)
+
+
 Хачков Илья Владиславович
 =====
 ## Как со мной связаться
