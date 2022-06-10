@@ -7,28 +7,48 @@ body {
 }
 img {
     border-radius: 20px;
-    padding-left: 35px;
+    }
+
+h1, h2 {
+   text-align: center;
+   font-style: italic;
+      
 }
-h1 {
-    width: 100%;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-#FIO {
-   
-      width: 100%;
-      margin-left: 30%;
-      margin-right: 30%;
-}
+
 p {
     width: 500px;
     text-align: left;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+li{
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
 
 }
 #tasks {
     text-align: left;
     padding-left: -; 
 }
-p #cod {
-    color: blueviolet;
+span.code {
+    color: blue;
+}
+.contacts {
+    list-style-type: none;
+}
+ul.contacts {
+   padding: 0;
+   margin-left: 0px;
+}
+ul.tasks {
+    padding: 0;
+    margin-left: 20px;
+}
+ul.links {
+    list-style-type: none;
+}
+ul.links li {
+    float: left;
+    margin: auto;
 }
