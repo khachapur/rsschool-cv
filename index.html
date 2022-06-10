@@ -8,8 +8,8 @@
  </head>
 <body>
   <header>
-    <h1> Резюме </h1>
-    <h2><img src="https://raw.githubusercontent.com/khachapur/img-for-rss/main/IMG_20190906_113554.jpg" alt="аватар" width="350" height="450"/> <br/> Хачков Илья Владиславович</h2>
+    <h1><img width="45" height="40" alt="B" src="https://a4files.ru/content/uploads/2017/12/bukva-V.jpg">Резюме </h1>
+    <h2 id="img"><img src="https://raw.githubusercontent.com/khachapur/img-for-rss/main/IMG_20190906_113554.jpg" alt="аватар" width="350" height="450"/> <br/> Хачков Илья Владиславович</h2>
   </header>
   <aside>
     <h2>Задачи:</h2>
@@ -40,8 +40,6 @@
         Email: <span class="code">&LT;span class="email"&GT;</span> khachapurisan@mail.ru <span class="code">&LT;/span&GT;</span> <br/>
        <span class="code"> &LT;span class="email"&GT;</span> pundorum.box@mail.ru <span class="code">&LT;/span&GT;</span> <span class="code">&LT;/p&GT;</span> <br/>
       </div>
-    </aside>
-    <footer>
       <h2> Как со мной связаться:</h2>
       <div class="cont">
         <ul class="contacts">
@@ -49,13 +47,17 @@
           <li><span class="email">khachapurisan@mail.ru</span><br/>
               <span class="email">pundorum.box@mail.ru </span> </li>
         </ul>
+    </aside>
+    <footer>
         <ul class="links">      
-          <li> <a href="https://discord.com/channels/@me"> <img width="150" height="75" alt="хачапури(@khachapur)" src="data:image/png;base64,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"></a> </li>
+          <li> <a href="https://discord.com/channels/@me"> <img width="200" height="100" alt="хачапури(@khachapur)" src="https://rossaprimavera.ru/static/files/eea155dbb7c0.jpg"></a> </li>
           <li> <a href="https://github.com/khachapur"> <img width="150" height="75" alt="khachapur" src="https://ru.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png"> </a> </li>
           <li><a href="https://rs.school/js/"> <img  width="150" height="75" alt="rss" src="https://rs.school/images/rs_school_js.svg"> </a> </li>
         </ul>  
       </div>
-
+      <div class="author">
+        <p>&COPY; Хачков И.В. 2020 г.</p>
+      </div>
     </footer>
 </body>
 </html>
