@@ -12,25 +12,42 @@
     <h2 id="img"><img src="https://raw.githubusercontent.com/khachapur/img-for-rss/main/IMG_20190906_113554.jpg" alt="аватар" width="350" height="450"/> <br/> Хачков Илья Владиславович</h2>
   </header>
   <aside>
-    <h2>Задачи:</h2>
-    <div id="taskss">
+    <div class="wrapper">
+      <nav class="menu">
+      <ul class="menu__list">
+        <li>
+          <a href="" class="menu__link"><img width="40px" height="40px" alt="Меню" src="https://cdn-icons-png.flaticon.com/512/16/16033.png"></a>
+            <ul class="sub-menu__list">
+              <li><a href="#task" class="sub-menu__link">Задачи</a></li>
+              <li><a href="#exp" class="sub-menu__link">Мой опыт</a></li>
+              <li><a href="#education" class="sub-menu__link">Образование</a></li>
+          <!--<li><a href="" class="sub-menu__link">Примеры работ</a></li> -->
+              <li><a href="#examplcode" class="sub-menu__link">Пример кода</a></li>
+              <li><a href="#cont" class="sub-menu__link">Как со мной связаться</a></li>
+            </ul>
+        </li>  
+      </ul>
+    </nav>
+    </div>
+    <div id="tasks">
+      <h2>Задачи:</h2>
       <ul class="tasks">
         <li>Максимально качественно и в полном объеме изучить предлагаемый материал в данном курсе.</li>
         <li>Пройти курс stage0, stage1, stage2 с первого раза.</li>
         <li>Стать специалистом в области frontend разработки.</li>
       </ul>     
     </div>
-    <h2>Мой опыт</h2>
     <div id="exp">
+      <h2>Мой опыт</h2>
        <p>Опыта в разработке и веб дизайне не имею, изучал самостоятельно html и css по книгам.</p>
     </div>
-    <h2>Образование:</h2>
     <div id="education">
+      <h2>Образование:</h2>
       <p>Имею среднее-специальное образование, окончил Минский государственный энергетический колледж в 2016. 
           Обучаюсь заочно в БНТУ на энергетическом факультете на 4 курсе</p>
     </div>
-    <div id="exaamplcode">
-      <h2>Пример когда</h2>
+    <div id="examplcode">
+      <h2>Пример кода</h2>
         <p>	<span class="code"> &LT;p  id="FIO"&GT;</span> Хачков Илья Владиславович <span class="code">&LT;/p&GT; </span> <br/>
       
        <span class="code">&LT;h2&GT;</span> <span class="code"> &LT;em&GT;</span> Как со мной связаться: <span class="code"> &LT;/em&GT;</span> <span class="code"></span>&LT;/h2&GT; </span> <br/>
@@ -40,8 +57,8 @@
         Email: <span class="code">&LT;span class="email"&GT;</span> khachapurisan@mail.ru <span class="code">&LT;/span&GT;</span> <br/>
        <span class="code"> &LT;span class="email"&GT;</span> pundorum.box@mail.ru <span class="code">&LT;/span&GT;</span> <span class="code">&LT;/p&GT;</span> <br/>
       </div>
-      <h2> Как со мной связаться:</h2>
-      <div class="cont">
+      <div id="cont" class="cont">
+        <h2> Как со мной связаться:</h2>
         <ul class="contacts">
           <li id="mts"><img  width="80" height="40" alt="МТС" src="https://dana-mall.com/assets/images/shop/mtc-web.jpg"> <span class="tel">+375333603896</span> </li>
           <li><span class="email">khachapurisan@mail.ru</span><br/>

@@ -2,20 +2,22 @@ body {
     background: rgb(179,179,179);
     background: linear-gradient(137deg, rgba(179,179,179,0.9717711480362538) 0%, rgba(208,209,205,1) 24%, rgba(240,235,235,0.5065143504531722) 49%, rgba(156,156,156,0.5065143504531722) 71%, rgba(4,0,0,1) 100%);
     width: 900px;
-    margin: auto;
+    margin: 10px auto;
     
 }
 h1 {
     background-color: rgb(10, 10, 10);
     color: rgb(253, 250, 250);
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     width: 350px;
+    margin-bottom: 0px;
     padding: 0;
     font-size: 3em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
 }
 header {
-    
+       margin: 0 2%;
+    padding-left: 4px;
     width: 40%;
     float: left;
 }
@@ -25,15 +27,20 @@ h1 img {
     padding: 0 4px;
 }
 aside {
-    width: 60%;
+    
+    width: 55%;
     float: right;
+    
 }
 footer {
     clear: right;
+    margin-left: 150px;
+    
 }
  h2 img {
-    border-radius: 50px;
-    border: 3px;
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+    
     
 } 
 
@@ -42,7 +49,9 @@ h2 {
    font-style: italic;
 }
 #img {
+    margin-top: 0;
     float: left;
+  
 }
 p {
     width: 500px;
@@ -56,9 +65,14 @@ li{
     font-size: 1.2em;
 
 }
-#tasks {
+#tasks, .cont, #exp, #education, #examplcode {
     text-align: left;
-    padding-left: -; 
+    border: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgb(243, 242, 242);
+    margin-top: 7px;
+    padding: 0 5px;
 }
 span.code {
     color: blue;
@@ -71,7 +85,7 @@ ul.contacts {
    margin-left: 0px;
 }
 ul.tasks {
-    padding: 0;
+    padding: 0 0 0 3px;
     margin-left: 20px;
 }
 ul.links {
@@ -83,4 +97,49 @@ ul.links li {
 }
 .author {
     padding-top: 5em;
+}
+.menu {
+    display: block;
+    background-color: gray;
+    width: 500px;
+    height: 75px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 2em;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu li {
+    display: block;
+    list-style-type: none;
+}
+.menu__list{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 15px;
+}
+.menu__list>li:hover .sub-menu__list {
+    display: block;
+}
+
+.menu__link{
+    color: white;
+}
+.sub-menu__list {
+    display: none;
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    background-color: gray;
+    color: white;
+}
+.sub-menu__link{
+    color: white;
+    
+}
+.sub-menu__list>li:hover{
+    color: yellow;
+ 
 }
