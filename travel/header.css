@@ -1,0 +1,287 @@
+body {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.desktop {
+
+	width: 1440px;
+	height: 3735px;
+	background: #FFFFFF;
+	
+	background-image: url("travel img/top.svg"),
+						url("travel img/footer.svg");
+
+	background-position: top, bottom;
+	background-repeat: no-repeat;		
+
+}
+
+#header {
+	width: 1440px;
+	height: 765px;
+
+}
+
+.preview {
+	position: relative;
+}
+
+.rectangle {
+	display: flex;
+	width: 1440px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+
+	background: rgba(242, 120, 92, 0.7);
+	box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.logo {
+	
+	width: 216px;
+	height: 31px;
+	left: 120px;
+	top: 25px;
+	margin: 0px;
+	padding: 0px;
+}
+/* Подключение шрифтов*/
+@font-face {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('fonts/red-hat-text-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/red-hat-text-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Magra';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('fonts/magra-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/magra-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* aleo-regular - latin */
+@font-face {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/aleo-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/aleo-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* aleo-300italic - latin */
+@font-face {
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/aleo-v11-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/aleo-v11-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* aleo-700 - latin */
+@font-face {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('fonts/aleo-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/aleo-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* aleo-700italic - latin */
+@font-face {
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+       url('fonts/aleo-v11-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/aleo-v11-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.logo span{
+	width: 180px;
+	height: 31px;
+	left: 156px;
+	top: 25px;
+	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Magra';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+
+	color: #FFFFFF;
+}
+
+
+.navigation {
+	width: 527px;
+	height: 21px;
+	
+}
+.navigation li{
+	list-style: none;
+
+}
+.navigation a{
+	text-decoration: none;
+	width: 98px;
+	height: 21px;
+
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+
+	color: #FFFFFF
+}
+ul.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	margin: 0px;
+}
+
+.submenu {
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.login {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+	width: 103px;
+	height: 41px;
+	left: 1217px;
+	top: 25px;
+
+	background: #0D606F;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+	border-radius: 10px;
+	border: none; 
+	outline: none;
+}
+.login a{
+	text-decoration: none;
+
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+
+	color: #FFFFFF;	
+}
+
+.PlanYourTrip {
+	position: absolute;
+	width: 892px;
+	height: 422px;
+	left: 120px;
+	top: 122px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 96px;
+
+	color: #FFFFFF;
+}
+.PlanYourTrip p{
+	font-family: 'Aleo';
+	font-style: italic;
+	font-weight: 550;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #FFFFFF;
+
+	margin: 30px 0;
+}
+.Rectangle8 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+
+	width: 892px;
+	height: 95px;
+	left: 120px;
+	top: 416px;
+
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 16px;
+
+	margin-top: 45px;
+}
+
+.wwyltd {
+	/*display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;*/
+	display: block;
+	width: 560px;
+	height: 22px;
+	left: 161px;
+	top: 448px;
+	
+}
+
+.Rectangle8 span{
+	font-family: 'Aleo';
+	font-style: italic;
+	font-weight: 550;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #F2785C;
+}
+
+.button2 {
+	display: block;
+	width: 228px;
+	height: 59px;
+	left: 766px;
+	top: 434px;
+
+	background: #0D606F;
+	box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+	border-radius: 10px;
+	border: none;
+
+	margin: 0px;
+}
+.button2 span {
+	font-family: 'Red Hat Text';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
