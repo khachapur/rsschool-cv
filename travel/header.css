@@ -3,19 +3,26 @@ body {
 	margin: 0 auto;
 }
 
-#desctop{
-	
+.desktop {
+
 	width: 1440px;
 	height: 3735px;
 	background: #FFFFFF;
+	
+	background-image: url("travel img/top.svg"),
+						url("travel img/footer.svg");
+
+	background-position: top, bottom;
+	background-repeat: no-repeat;		
+
 }
+
 #header {
 	width: 1440px;
 	height: 765px;
-	left: 0px;
-	top: 0px;
-	background: url("travel img/garrett-parker-DlkF4-dbCOU-unsplash 1.jpg");
+
 }
+
 .preview {
 	position: relative;
 }
