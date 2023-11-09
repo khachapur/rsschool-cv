@@ -3,7 +3,9 @@
 
 
 Khachkov Ilya Vladislavovich
-=====
+
+
+***
 
 
 ## My contacts
@@ -15,7 +17,8 @@ Khachkov Ilya Vladislavovich
 *email:*  khachapurisan@mail.ru
 
 
-====
+---
+
 ## Educated 
 
 ### BNTU
@@ -32,8 +35,9 @@ Khachkov Ilya Vladislavovich
 
 ==== 
 
+```
 
-```<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
  <head>
     <meta charset="utf-8">
@@ -47,12 +51,14 @@ Khachkov Ilya Vladislavovich
 
 <P><img src="https://github.com/khachapur/rsschool-cv/blob/gh-pages/IMG_20190906_113554.jpg">Хачков Илья Владиславович</p>
  <h2> <em>Как со мной связаться:</em></h2>
+
  ```
+
 
 ==== 
  
+
  ## English language level
  
-  *Pre-intermediate*
 
-====
+  *Pre-intermediate*
