@@ -5,15 +5,25 @@ Khachkov Ilya Vladislavovich
 
 
 ## My contacts
+
 *Discord:* хачапури(@khachapur)
 
-*email:* khachapuri@mail.ru
+*email:*  khachapurisan@mail.ru
 ====
+## Educated 
 
+### BNTU
+### Minsk statet energy college
+### Tree of knowledge (manual testing)
 
-I have no programming experience. Came to the course to become a sought-after specialist. I have great perseverance and desire to study educational material.
 ====
+## Hard skills
 
+### HTMl
+### CSS
+### JavaScript
+
+====
 
 ```<!DOCTYPE html>
 <html lang="ru">
@@ -28,9 +38,13 @@ I have no programming experience. Came to the course to become a sought-after sp
 <h1> <em>Резюме</em> </h1>
 
 <P><img src="https://github.com/khachapur/rsschool-cv/blob/gh-pages/IMG_20190906_113554.jpg">Хачков Илья Владиславович</p>
- <h2> <em>Как со мной связаться:</em></h2>```
- ====
+ <h2> <em>Как со мной связаться:</em></h2>
+ ```
+
+==== 
  
+ ## English language level
  
- English language level of general basic education.
- ====
+  *Pre-intermediate*
+
+====
