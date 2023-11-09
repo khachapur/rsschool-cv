@@ -2,7 +2,7 @@
 ![Alt- фото](IMG_20151229_114147.jpg)
 
 
-Khachkov Ilya Vladislavovich
+**_Khachkov Ilya Vladislavovich_**
 
 
 ***
@@ -25,7 +25,7 @@ Khachkov Ilya Vladislavovich
 ### Minsk statet energy college
 ### Tree of knowledge (manual testing)
 
-====
+---
 
 ## Hard skills
 
@@ -33,7 +33,7 @@ Khachkov Ilya Vladislavovich
 ### CSS
 ### JavaScript
 
-==== 
+--- 
 
 ```
 slide_left.addEventListener('click', function(){
@@ -45,11 +45,7 @@ slide_left.addEventListener('click', function(){
 });
 
  ```
-
-
-==== 
  
-
  ## English language level
  
 
